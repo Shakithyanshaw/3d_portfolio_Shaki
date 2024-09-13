@@ -9,16 +9,21 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor="black" />
+      {/* Increase intensity and change groundColor to white for better reflection */}
+      <hemisphereLight intensity={0.55} groundColor="white" />
+      {/* Increase the intensity of the spotlight */}
       <spotLight
         position={[-20, 50, 10]}
-        angle={0.12}
+        angle={0.2} // Increase angle slightly to spread light more
         penumbra={1}
-        intensity={1}
+        intensity={1.5} // Increase intensity to make it brighter
         castShadow
-        shadow-mapSize={1024}
+        shadow-mapSize={2048} // Increase shadow resolution
       />
-      <pointLight intensity={1} />
+      {/* Increase the intensity of the point light */}
+      <pointLight intensity={1.5} position={[10, 10, 10]} />
+      {/* Add an ambient light for overall brightness */}
+      <ambientLight intensity={0.3} /> {/* Adjust intensity as needed */}
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.7 : 0.75}
