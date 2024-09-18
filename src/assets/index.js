@@ -34,6 +34,7 @@ import vjweb from './vjweb.png';
 import portfolio from './portfolio.png';
 import logo1 from './logo1.png';
 import club from './club.png';
+import wmax from './wmax.png';
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   vjweb,
   portfolio,
   club,
+  wmax,
 };

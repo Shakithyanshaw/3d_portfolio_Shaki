@@ -27,6 +27,7 @@ import {
   vjweb,
   portfolio,
   club,
+  wmax,
 } from '../assets';
 
 export const navLinks = [
@@ -230,9 +231,30 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
+    name: 'WMAX',
+    description:
+      'A streamlined Android Studio app for managing and viewing inventory, tracking stock levels, and updating item information with an intuitive interface and seamless navigation.',
+    tags: [
+      {
+        name: 'android-studio',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'java',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'figma',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: wmax,
+    source_code_link: 'https://github.com/',
+  },
+  {
     name: 'UOK Computer club',
     description:
-      'A user-friendly front-end interface for the University of Kelaniya Computer Clubs website, featuring intuitive navigation for browsing club activities, accessing event information, and viewing updates. The platform includes engaging visuals and interactive elements to enhance the user experience and streamline access to club resources.',
+      'A user-friendly interface with intuitive navigation for browsing activities, accessing event info, and viewing updates, featuring engaging visuals and interactive elements.',
     tags: [
       {
         name: 'html',
@@ -243,7 +265,7 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'php',
+        name: 'figma',
         color: 'pink-text-gradient',
       },
     ],
