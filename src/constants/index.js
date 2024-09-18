@@ -20,11 +20,13 @@ import {
   //tesla,
   // shopify,
   //carrent,
-  jobit,
+  //jobit,
   //tripguide,
   threejs,
-  weatherapp,
+  weather,
   vjweb,
+  portfolio,
+  club,
 } from '../assets';
 
 export const navLinks = [
@@ -203,7 +205,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
+    image: portfolio,
     source_code_link: 'https://github.com/',
   },
   {
@@ -224,7 +226,28 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: weatherapp,
+    image: weather,
+    source_code_link: 'https://github.com/',
+  },
+  {
+    name: 'UOK Computer club',
+    description:
+      'A user-friendly front-end interface for the University of Kelaniya Computer Clubs website, featuring intuitive navigation for browsing club activities, accessing event information, and viewing updates. The platform includes engaging visuals and interactive elements to enhance the user experience and streamline access to club resources.',
+    tags: [
+      {
+        name: 'html',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'php',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: club,
     source_code_link: 'https://github.com/',
   },
 ];
