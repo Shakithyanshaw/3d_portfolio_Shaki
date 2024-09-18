@@ -16,13 +16,15 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
+  //starbucks,
+  //tesla,
+  // shopify,
+  //carrent,
   jobit,
-  tripguide,
+  //tripguide,
   threejs,
+  weatherapp,
+  vjweb,
 } from '../assets';
 
 export const navLinks = [
@@ -116,50 +118,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
     title: 'Full stack Developer',
-    company_name: 'Meta',
+    company_name: 'Fluxs Digital Solutions',
     icon: meta,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: '5 th Aug 2024 - Present',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -198,9 +161,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'VJ Creations',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'VJ Creations web platform lets users search and book events, make online payments, and place customized orders. Admins can generate valuable reports to track bookings and customer preferences efficiently',
     tags: [
       {
         name: 'react',
@@ -211,28 +174,32 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'Node.js',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'Express.js',
+        color: 'blue-text-gradient',
+      },
     ],
-    image: carrent,
+    image: vjweb,
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Job IT',
+    name: 'Portfolio',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'A comprehensive 3D portfolio platform that allows users to showcase their work in immersive 3D environments, featuring interactive galleries, customizable layouts, and curated templates for various creative industries.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'tailwind',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'html',
         color: 'pink-text-gradient',
       },
     ],
@@ -240,16 +207,16 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Trip Guide',
+    name: 'Weather App',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'A comprehensive weather app that allows users to track real-time weather conditions, view detailed forecasts, and get personalized recommendations for outdoor activities based on current and upcoming weather trends.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'rest-apis',
         color: 'green-text-gradient',
       },
       {
@@ -257,7 +224,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
+    image: weatherapp,
     source_code_link: 'https://github.com/',
   },
 ];
